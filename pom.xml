@@ -5,6 +5,7 @@
 	<artifactId>sample-microservice</artifactId>
 	<version>1.0</version>
 	<packaging>pom</packaging>
+	<name>lab-end2end</name>
 
 	<properties>
 		<slf.version>1.7.25</slf.version>
@@ -17,8 +18,9 @@
 	</properties>
 	
 	<modules>
-		<module>naming-server</module>
-		<module>hello-service</module>
+		<module>sample-microservice-eureka-naming-server</module>
+		<module>sample-microservice-hello</module>
+		<module>sample-microservice-userrepo</module>
 	</modules>
 	
 	<dependencies>
